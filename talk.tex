@@ -1,0 +1,986 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\date{}
+
+\begin{document}
+
+\subsection{Introduction}
+
+The purpose of this training session is to give you a basic
+understanding of the way in which defamation law operates. It is aimed
+to make it easier for you to understand the kinds of problems that
+running a website might create concerning defamation law and to
+understand any legal advice that is given to you.
+
+\section{I - the law of defamation}
+
+\subsection{Terminology}
+
+\subsubsection{\texorpdfstring{``defamation''}{defamation}}
+
+There's a fair amount of argument about what exactly ``defamation''
+means which can be quite heated at times because the term is used in
+different ways by different people. For example sometimes ``defamatory''
+is understood to imply ``untrue'' and sometimes not. I'll discuss what
+is and is not defamatory in more detail later, but for now a statement
+is ``defamatory'' if it lowers someone's reputation (literally it de
+fames them), so that:
+
+``Lord Archer is a convicted criminal''
+
+is defamatory (but true).
+
+\subsubsection{\texorpdfstring{``libel'' and
+``slander''}{libel and slander}}
+
+Defamation is actually an umbrella term for two distinct kinds of claim
+(technically known as \textbf{causes of action}{), which are:}
+
+\begin{itemize}
+\item
+  \textbf{libel}{ - written, broadcast or performed statements}
+\item
+  \textbf{slander}{ - spoken (or otherwise impermanent) statements}
+\end{itemize}
+
+Why does this matter? Libel has a historical origin as a part of the
+criminal process and a means by which the state could prevent scurrilous
+printed material. As a result libel is one of the very small number of
+causes of action where there is no need to prove damage of any kind.
+
+Slander, on the other hand, has a different background. In most cases
+for there to be a valid claim for slander, actual damage would have to
+be proved. There are some exceptions to this for particularly serious
+slanders, such as a a statement that a woman was unchaste.
+
+Although it may feel like a slander, everything written on the web will
+be treated as a libel. Thus whether or not there was damage is
+immaterial.
+
+\subsection{Elements of defamation}
+
+To sue successfully for defamation C will need to prove:
+
+\begin{enumerate}
+\item
+  A statement S
+\item
+  Identifiably about C
+\item
+  S means M
+\item
+  M is defamatory of C
+\item
+  S was published by D
+\end{enumerate}
+
+\subsection{Some anatomy of a defamation claim}
+
+Defamation is part of an area of law known as the ``law of
+\textbf{tort}{'' from which we derive two eye-watering words:
+}\textbf{tortious} {and }\textbf{tortfeasor}{. The following is an
+outline of how a defamation (and indeed most tort claims) is carried
+out. I am simplifying by omitting applications and injunctions which can
+happen }\emph{{at any time.}}
+
+If someone feels they have been defamed they will do the following:
+
+\begin{enumerate}
+\item
+  {They should (on pain of costs penalties) carry out the
+  }\textbf{pre-action protocol}{ requiring them to write a letter before
+  action to the person/people they intend to sue.}
+\item
+  {They will fill in a }\textbf{claim form}{ (old word ``writ'') and ask
+  a court to }\textbf{issue}{ it. }
+\item
+  {They are now know as the }\textbf{claimant} {(old word} \textbf{}
+  {``}\textbf{plaintiff}{''} \textbf{} {in Scotland
+  ``}\textbf{pursuer}{'') - we will call them ``C'' throughout.}
+\item
+  {Either with the claim form, or shortly afterwards, the claimant must
+  also serve what is known as a }\textbf{particulars of claim}{ - which
+  sets out the details of the claim which they are bringing.}
+\item
+  {They will then }\textbf{serve}{ it (i.e. give it to one way or
+  another) on one or more people who will then be }\textbf{defendants}{
+  (affectionately ``D'')}
+\item
+  The defendants will then create a document known as a defence which
+  will do two things:
+
+  \begin{enumerate}
+  \item
+    deal with each point in the particulars of claim saying whether the
+    defendant denies it, agrees that it is true, or does not know;
+  \item
+    sets out the defendant's positive defences and any facts that the
+    defendant relies on.
+  \end{enumerate}
+\item
+  Many things can happen: the court will have one or more case
+  management conferences or hearings to decide how the case should
+  proceed and when evidence should be served; either party may make
+  applications (and they usually will as we shall see), injunctions may
+  be granted or discharged and so on\ldots{}.
+\item
+  {Eventually the parties will have exchanged }\textbf{witness
+  statements}{ (the written evidence the witness is to give) and then
+  there will be a}
+\item
+  Trial (usually before a jury)
+\item
+  After the trial if the claimant has one they may seek to enforce any
+  judgment; there may be an appeal etc.
+\end{enumerate}
+
+\subsection{Applications and injunctions}
+
+{In the civil procedure rules anyone can make what is known as an
+``application'' at any
+time}{{.\hyperref[sdfootnote1sym]{\textsuperscript{1}} Applications are
+very flexible. In rare circumstances:}}
+
+\begin{itemize}
+\item
+  they can be made even before procedings have started
+\item
+  they can be made by non-parties.
+\end{itemize}
+
+In defamation proceedings the applications one is likely to see are:
+
+\begin{itemize}
+\item
+  {{for an order to stop publication (called an
+  }}{\textbf{injunction}}{{), perhaps before publication has happened
+  and even without the knowledge (at first) of the defendant}}
+\item
+  {{to find out information, particularly the identity of a proposed
+  defendant, from an innocent third party - a }}{\textbf{Norwich
+  Pharmacal} }{{order.}}
+\item
+  to ask the judge to decide a question of law
+\item
+  {{for summary judgment (on the grounds that the other party has no
+  }}\emph{{reasonable prospect of success}}{{)}}
+\item
+  for striking out (i.e. a deletion of part of one sides pleadings on
+  the ground that they are irrelevant, wrong in law or disclose no cause
+  of action)
+\item
+  \ldots{} a myriad of case management orders
+\end{itemize}
+
+\subsection{Judges and juries}
+
+{Fox's Libel Act\hyperref[sdfootnote2sym]{\textsuperscript{2}} reformed
+the criminal procedure for libel so that trial was always before a jury.
+That rule has been adapted to civil proceedings so that a defamation
+claim is almost always heard in a trial by jury. This is now unusual
+because in England and Wales we have largely dropped the use of juries
+for civil claims except for a small number of rather special causes of
+action (such as claims against the Police for false imprisonment).
+Because trial is usually by jury it is important to understand the
+different roles judges and juries have.}
+
+\begin{itemize}
+\item
+  Judges - decide questions of law, which can set precedent
+\item
+  Juries - decide questions of fact, which cannot set precedent
+\end{itemize}
+
+{Most lawyers understand the law/fact division but it is not at all
+plain to the lay person. For example whether a statement }\textbf{is}
+{defamatory is obviously a question of fact (which a jury would decide)
+but whether it is the kind of statement that }\textbf{could be}{
+defamatory is a legal question (which a judge would decide).}
+
+This has several consequences:
+
+\begin{enumerate}
+\item
+  {The judge can make decisions about what meanings a statement could
+  have and whether they could be defamatory at any stage prior to the
+  trial as well as at the trial. A common tactic to use at an early
+  stage is to try to knock out meanings or indeed the whole case by an
+  application for }\textbf{summary judgment}{ or }\textbf{striking
+  out}{.}
+\item
+  {The case law has to be read with care because the decisions are
+  usually about what }\emph{{could}}{{ be defamatory not what
+  }}\emph{{was}}{{ defamatory. The decision of a jury is neither here
+  nor there.}}
+\end{enumerate}
+
+This means that in a defamation claim the following processes could
+occur.
+
+\begin{enumerate}
+\item
+  C pleads that the S means M
+\item
+  The judge considers:
+
+  \begin{enumerate}
+  \item
+    could S mean M? (is M a meaning S is capable of bearing)
+  \item
+    is M capable of being defamatory?
+  \end{enumerate}
+\item
+  The jury considers:
+
+  \begin{enumerate}
+  \item
+    what does S mean?
+  \item
+    {is }\textbf{that}{ meaning defamatory?}
+  \end{enumerate}
+\end{enumerate}
+
+\subsection{What is defamatory?}
+
+There is no simple definition of what is defamatory and indeed the case
+law is not entirely uniform in what is considered defamatory. Here are a
+number of offerings:
+
+\begin{itemize}
+\item
+  one to the claimant's discredit
+\item
+  tends to lower him in the estimation of others
+\item
+  cause him to be shunned or avoided
+\item
+  expose him to hatred, contempt or ridicule
+\end{itemize}
+
+The Americans have come up with the following in their restatement of
+the law of torts:
+
+``it tends to harm the reputation of another so as to lower him or her
+in the estimation of the community or deter third parties from
+associating or dealing with him or her''
+
+which is not half bad.
+
+\begin{itemize}
+\item
+  likely effect of the words (not the actual effect)
+\item
+  on ``right thinking persons generally'' -- see Byrne v Deane for an
+  example of something that was not defamatory because it claimed
+  someone had acted lawfully.
+\end{itemize}
+
+\subsection{Examples of imputations}
+
+A useful exercise is to think through the following imputations and
+consider whether they are (or are not) defamatory.
+
+\begin{enumerate}
+\item
+  C is insane
+\item
+  {C has HIV (does it make a difference whether C is ``innocent'' or
+  contracted HIV through promiscuous }\emph{{gay sex}}{{)?}}
+\item
+  C has been raped
+\item
+  C has/had heart disease (what about 'flu?)
+\item
+  C is illegitimate
+\item
+  C has leprosy
+\item
+  X is a better journalist than C
+\item
+  C is a lawyer of only average ability
+\end{enumerate}
+
+\subsection{Meaning}
+
+{In deciding what something means (or what meanings it }\emph{{could
+}}{{have) the courts have developed a variety of approaches and rules.}}
+
+\begin{itemize}
+\item
+  only one meaning - even though a statement may have multiple meanings,
+  juries are directed to determine ``the'' meaning of a statement.
+\item
+  intention is irrelevant (though it can be relevant to the Defamation
+  Act 1996 and to some defences)
+\end{itemize}
+
+\subsubsection{\texorpdfstring{``natural and
+ordinary''}{natural and ordinary}}
+
+There are in fact two kinds of meaning that can be pleaded by a
+claimant. The first is what is known as the ``natural and ordinary''
+meaning of the words.
+
+\begin{itemize}
+\item
+  natural and ordinary meaning includes imputations and inferences
+
+  \begin{itemize}
+  \item
+    ``{Have you heard that Fox was reported twice as a spy'' -
+    defamatory implication that he was
+    guilty.\hyperref[sdfootnote3sym]{\textsuperscript{3}}}
+  \end{itemize}
+\item
+  hearer must be reasonably justified in understanding words to be
+  defamatory
+\item
+  not strained, forced or utterly unreasonable
+
+  \begin{itemize}
+  \item
+    {not enough that it }\emph{{might}}{{ be understood in a defamatory
+    sense (see Capital and Counties Bank v Henty)}}
+  \item
+    ``{{suspicious people might get a defamatory meaning out of `chop
+    and tomato sauce'''\hyperref[sdfootnote4sym]{\textsuperscript{4}}}}
+  \end{itemize}
+\item
+  The ordinary reasonable fair-minded reader has been constructed by the
+  courts as the person from whose point of view the meaning is to be
+  assessed. Some of the qualities such a person is thought to have are:
+
+  \begin{itemize}
+  \item
+    reasonable intelligence
+  \item
+    ordinary person's general knowledge
+  \item
+    may include implications and inferences
+  \item
+    fair minded and reasonable
+  \item
+    may be guilty of a certain amount of loose thinking
+  \item
+    does not read a sensational article with cautious and critical care
+  \item
+    goes by broad impression
+  \item
+    does not construe words as would a lawyer
+  \end{itemize}
+\end{itemize}
+
+\subsubsection{\texorpdfstring{``Legal'' Innuendo
+meanings}{Legal Innuendo meanings}}
+
+The word ``innuendo'' is used in two ways by defamation lawyers. The
+first in a non-technical sense to mean an inferred or implied meaning
+into words, the second is the label attached to a special kind of
+meaning that can be pleaded by a claimant. To distinguish it from the
+normal use of the word it is often called the ``true'' or ``legal''
+innuendo meaning.
+
+A legal innuendo is a meaning that a statement possesses because of the
+knowledge of additional facts that are not general knowledge. It may be
+that only some people to whom the statement is published are aware of
+those additional facts (and the claimant will have to prove it). That
+additional knowledge can make something that looked innocent into a
+defamation and vice versa.
+
+A legal innuendo gives rise to a separate cause of action. I can sue
+once on publication to the general public and another time on
+publication to those with special knowledge.
+
+\subsection{Defences}
+
+Obviously a defendant can defend themselves by denying what the claimant
+claims (eg by denying that the statement was defamatory or was even
+published) but there are some additional defences available:
+
+\begin{itemize}
+\item
+  Justification -- the defendant proves the statement is true
+\item
+  Privilege -- otherwise known as ``absolute'' privilege: the defendant
+  proves that the statement was made on a privileged occasion. For
+  example
+
+  \begin{itemize}
+  \item
+    reports of a statement made in Parliament
+  \item
+    contemporaneous reporting of legal proceedings
+  \item
+    statements made in legal proceedings
+  \item
+    (possibly) statements made to one's lawyer in obtaining legal advice
+    (there is some doubt over this - it may just be a qualified
+    privilege.
+  \end{itemize}
+\item
+  Qualified privilege
+\item
+  Fair comment
+\item
+  Offer of amends
+\end{itemize}
+
+{{Qualified privilege and fair comment are defeated by the claimant
+proving }}{\textbf{malice}}{{. Like everything else in defamation
+``malice'' has a peculiar technical meaning. Simply put it implies
+either that the statement was made for an improper motive or in the
+absence of honest belief in its truth.}}
+
+\subsubsection{Justification}
+
+Truth is a complete defence to a civil suit for libel (though it was not
+a complete defence to a prosecution for criminal libel). Even a
+malicious and upsetting truth can be justified.
+
+{{A serious limitation on this defence comes in the form of the
+}}{\textbf{repetition rule}}{{. Where a defendant repeats a statement
+made by another, for example by saying }}
+
+``X says Y''
+
+Where Y is defamatory. This may only be justified by proving that Y is
+true, not merely that X did say Y.
+
+Lewis v Daily Telegraph Ltd {[}1964{]} A.C. 234 Lord Devlin observed at
+p.283--4 that:
+
+``\ldots{} you cannot escape liability for defamation by putting the
+libel behind a prefix such as `I have been told that \ldots{}' or `It is
+rumoured that \ldots{}' and then asserting that it was true that you had
+been told or that it was in fact being rumoured. You have \ldots{} to
+prove that the subject matter of the rumour was true.''
+
+this means that:
+
+\begin{itemize}
+\item
+  adding ``allegedly'' after a possibly defamatory quote from someone
+  else does no good at at all
+\item
+  publishing a response by the defamed person, or noting that something
+  is merely someone else's opinion is no protection.
+\end{itemize}
+
+{{Sometimes the defendant will want to assert their own meaning
+(countering the claimant's meaning) in order to justify it. This is
+known as the }}\emph{{Lucas-Box}}{{ meaning. The Lucas-Box meaning and
+justification. }}
+
+A common example of this concerns allegations of wrongdoing. Consider:
+
+``Officers of the City of London Fraud Squad are inquiring into the
+affairs of Rubber Improvement Ltd. and its subsidiary companies. The
+investigation was requested after criticisms of the chairman's statement
+and the accounts by a shareholder at the recent company meeting.''
+
+{{What could that mean? Its direct meaning is easily justifiable (the
+Fraud Squad were investigating) but is that all? The Plaintiff in the
+case pleaded that it meant that they were guilty of fraud. The House of
+Lords decided that was going too far, but that it }}\emph{{could
+}}{{mean that they had so conducted themselves as to attract
+suspicion.\hyperref[sdfootnote5sym]{\textsuperscript{5}}}}
+
+{{The courts have developed what are called the three }}\emph{{Chase}}{{
+levels of meaning:\hyperref[sdfootnote6sym]{\textsuperscript{6}}}}
+
+\begin{enumerate}
+\item
+  guilty
+\item
+  {{reasonable grounds for suspicion of guilt - must be based on the
+  conduct of the claimant (the }}{\textbf{conduct rule}}{{) and cannot
+  be based merely on the fact that the police decided to investigate}}
+\item
+  reasonable grounds to investigate guilt
+\end{enumerate}
+
+\subsection{Qualified Privilege}
+
+\begin{itemize}
+\item
+  Co-ordination of duty and interest
+
+  \begin{itemize}
+  \item
+    Duty or interest in publication
+  \item
+    Duty or interest in receipt
+  \end{itemize}
+\item
+  Defeated by malice
+\item
+  Examples
+
+  \begin{itemize}
+  \item
+    confidential references
+  \item
+    communications amongst the team
+  \item
+    newspaper reporting? Reynolds
+  \end{itemize}
+\end{itemize}
+
+\subsection{Fair Comment}
+
+\begin{itemize}
+\item
+  Comment not statement
+
+  \begin{itemize}
+  \item
+    may be an inference
+  \end{itemize}
+\item
+  Honest -- defeated by malice
+\item
+  Matter of public interest
+\item
+  Comment on existing facts
+
+  \begin{itemize}
+  \item
+    facts must be true
+  \end{itemize}
+\end{itemize}
+
+\subsection{Outcomes}
+
+Why be afraid of a defamation claim?
+
+\begin{itemize}
+\item
+  Injunction
+
+  \begin{itemize}
+  \item
+    May be made in the interim
+  \item
+    Balance of convenience test for interim injunctions
+  \end{itemize}
+\item
+  Damages
+
+  \begin{itemize}
+  \item
+    Potentially very large
+  \item
+    Decided by juries, although the Court of Appeal does exercise some
+    control over it. Juries sounds all very wonderful in theory but they
+    have absolutely no sense of proportion when it comes to damages
+  \end{itemize}
+\item
+  {{Costs - also potentially vast since defamation cases are usually
+  heard in the High Court, are legally complex, dealt with by a very
+  small group of specialised lawyers and involve long trials by jury. In
+  general defamation claims are }}\emph{{very }}{{attractive to lawyers
+  who can laugh all the way to the bank.}}
+\end{itemize}
+
+An example of excessive awards is a case where an article claiming Elton
+John had a habit of chewing but not swallowing (in fact spitting out)
+food; had been observed doing it and medical evidence suggested this was
+a sign of Bulimia. The jury awarded compensatory damages of £75,000
+(reduced by the Court of Appeal to £25,000).
+
+\subsection{Offer of Amends}
+
+\begin{itemize}
+\item
+  An offer to
+
+  \begin{itemize}
+  \item
+    make and publish:
+
+    \begin{itemize}
+    \item
+      a suitable correction; and
+    \item
+      a sufficient apology
+    \end{itemize}
+  \item
+    pay compensation to be agreed or determined
+  \end{itemize}
+\item
+  Plus
+
+  \begin{itemize}
+  \item
+    not an admission of liability
+  \item
+    acceptance prevents future claim
+  \end{itemize}
+\item
+  Minus
+
+  \begin{itemize}
+  \item
+    only useful for innocent defamations
+  \item
+    may not use another defence
+  \end{itemize}
+\end{itemize}
+
+\section{II - Issues relevant to web contributions}
+
+\subsection{Special Defences}
+
+Under section 1 of the Defamation Act 1996, a defendant is not liable
+for a statement if:
+
+\begin{itemize}
+\item
+  not the author, editor or publisher
+\item
+  took reasonable care in respect of publication
+\item
+  did not know and had no reason to know that D caused or contributed to
+  the publication of a defamatory statement
+\end{itemize}
+
+Note that ``publisher'' means what it normally means and does not have
+the technical meaning of ``publish'' as used in the rest of defamation
+law.
+
+Under the e-commerce directive, those who are only ``hosting''
+information have a defence against any liability of that information
+(including defamation liability but also other things such as copyright)
+if:
+
+\begin{itemize}
+\item
+  they are an Information Society Service
+\item
+  they are innocent, in that:
+
+  \begin{itemize}
+  \item
+    they had no no actual knowledge of the unlawful information or
+  \item
+    they acted expeditiously to remove or disable
+  \end{itemize}
+\item
+  No need to search out potential libels
+\item
+  \emph{{Metropolitan International Schools Ltd}}{ - google couldn't be
+  required to prevent future defamatory snippets appearing as a result
+  of any search (although this decision would probably have resulted
+  even without the benefit of the directive)}
+\item
+  Does not prevent injunctions
+\end{itemize}
+
+\subsection{Identity of claimant}
+
+The claimant needs to be identifiable, but it is enough if some readers
+are able to identify the claimant from the information given. They do
+not have to be named directly.
+
+\begin{itemize}
+\item
+  ``{the man who lives in that house is a paedophile''
+  \hyperref[sdfootnote7sym]{\textsuperscript{7}}}
+\item
+  ``{X is illegimate''\hyperref[sdfootnote8sym]{\textsuperscript{8}}}
+\item
+  Hulton v Jones is a case of (probably) ``accidental'' defamation,
+  which extends potential liablility but it is unclear how far.
+\item
+  O'Shea v MGN a case where someone looked like the person photographed
+  - creates considerable difficulties if the idea were followed widely.
+\item
+  class libel - although it is possible to libel a class of people a
+  claimant has to prove that they individually were intended as the
+  target because the courts accept that people make loose and wide
+  generalisations
+
+  \begin{itemize}
+  \item
+    ``{all lawyers are thieves'' would not permit any lawyer to
+    sue\hyperref[sdfootnote9sym]{\textsuperscript{9}}}
+  \item
+    Knupffer v London Express Newspaper was a case where the class of
+    people (members of an organisation) was very small, but the claim
+    still failed for lack of proof that a particular individual was
+    intended.
+  \end{itemize}
+\end{itemize}
+
+Practical example for WDTK: officers of a public body are criticised
+either by title ``the Freedom of Information Officer'', or by
+implication ``whoever was handling this case was incompetent''.
+
+\subsection{public bodies}
+
+{The House of Lords held in Derbyshire County Council v Times Newspapers
+that an organ of local or central government may not sue for defamation.
+This probably applies to other public bodies, but how far the line is
+drawn is unclear. Happily the principle applies to political parties as
+well\hyperref[sdfootnote10sym]{\textsuperscript{10}} but we do not have
+the wonderful US rule which makes it very difficult for public figures
+to sue.}
+
+Something defamatory of a council may easily imply that someone in the
+council is defamed too.
+
+{Corporations in general do have reputations and can sue for libel. This
+applies even to very large and powerful
+corporations\hyperref[sdfootnote11sym]{\textsuperscript{11}} although if
+they are unable to show any trading loss their damages will be kept in
+``tight bounds''.\hyperref[sdfootnote12sym]{\textsuperscript{12}} }
+
+\subsection{publication}
+
+Must be to someone other than the claimant and/or defendant (so
+insulting someone in an email sent only to them is not defamatory). Two
+authorities are relevant to us:
+
+\begin{itemize}
+\item
+  Byrne v Deane - allowing something to remain that you could remove may
+  constitute publication
+\item
+  Godfrey v Demon Internet - for example leaving defamatory posts you
+  have been informed about on a USENET server would constitute
+  publication.
+\end{itemize}
+
+\paragraph{Linking?}
+
+Does linking to material constitute publication? There is (as yet) no
+direct authority on this point in English law. Some old cases could give
+us a clue:
+
+\begin{itemize}
+\item
+  Hird v Wood - the defendant sat on a stool near a placard which had
+  been put up on the roadway containing defamatory matter. He remained
+  there for a long time smoking a pipe and he continually pointed at the
+  placard with his finger and thereby attracted to it the attention of
+  all who passed by. HELD: publication.
+\item
+  Smith v Wood - the defendant has a copy of a libellous caricature
+  print. A witness heard that the defendant had a copy, went to visit
+  him and asked to see it. The defendant produced it to him and pointed
+  out the figure of the plaintiff. HELD: no sufficient evidence of
+  publication.
+\item
+  Lawrence v Newberry - letter published in a newspaper referred its
+  readers to a speech in the House of Lords which was alleged to contain
+  defamatory matter. HELD: the letter published the defamatory matter in
+  the speech.
+\end{itemize}
+
+It is hard to draw any firm conclusions. It seems to me that a link to
+something defamatory with text saying ``here is a defamation'' would
+certainly be publication.
+
+\section{Case Extracts}
+
+\subsection{Byrne v Deane}
+
+The plaintiff was a member of a golf club of which the two defendants
+were the proprietors and the female defendant also the secretary. One of
+the rules of the club provided that ``no notice or placard shall be
+posted in the club premises without the consent of the secretary.''
+Certain automatic gambling machines had been kept by the defendants on
+the club premises for the use of the members of the club. Some one gave
+information to the police, with the result that the machines were
+removed from the club premises. On the following day some one put up on
+the wall of the club a typewritten paper containing the following
+verse:-
+
+"For many years upon this spot\\You heard the sound of a merry
+bell\\Those who were rash and those who were not\\Lost and made a spot
+of cash\\But he who gave the game away\\May he byrnn in hell and rue the
+day."
+
+The word ``byrnn'' was blacked out in the original and the word ``burn''
+substituted for it. The plaintiff brought a libel action against the two
+defendants alleging that they had published the words in the notice of
+and concerning him to the members of the club. He alleged that the words
+meant that he had reported to the police the existence of the machines
+upon the club premises and that he had been guilty of underhand
+disloyalty to the members of the club.
+
+Held: (1) not libellous because a law-abiding member of society would
+think Mr Byrne had acted properly; (2) there was sufficient evidence of
+publication because the defendants had not removed the note despite
+being aware of it.
+
+\subsection{\texorpdfstring{{{Capital and Counties Bank v George Henty
+\&
+Sons\hyperref[sdfootnote13sym]{\textsuperscript{13}}}}}{Capital and Counties Bank v George Henty \& Sons13}}
+
+H. \& Sons were in the habit of receiving, in payment from their
+customers, cheques on various branches of a bank, which the bank cashed
+for the convenience of H. \& Sons at a particular branch. Having had a
+squabble with the manager of that branch H. \& Sons sent a printed
+circular to a large number of their customers (who knew nothing of the
+squabble)---``H. \& Sons hereby give notice that they will not receive
+in payment cheques drawn on any of the branches of the'' bank. The
+circular became known to other persons; there was a run on the bank and
+loss inflicted. The bank having brought an action against H. \& Sons for
+libel, with an innuendo that the circular imputed insolvency.
+
+Held: the natural meaning of the words was not libellous.
+
+\subsection{\texorpdfstring{{{Hulton v
+Jones\hyperref[sdfootnote14sym]{\textsuperscript{14}}}}}{Hulton v Jones14}}
+
+Mr Artemus Jones, a barrister in practice, had been at one time on the
+staff of the Sunday Chronicle , a newspaper owned and published by the
+appellants, and contributed articles signed by himself to some of the
+appellants' publications. The appellants published in the Sunday
+Chronicle an article a part of which ran thus;
+
+````Upon the terrace marches the world, attracted by the motor races---a
+world immensely pleased with itself, and minded to draw a wealth of
+inspiration---and, incidentally, of golden cocktails---from any scheme
+to speed the passing hour. \ldots{} `Whist! there is Artemus Jones with
+a woman who is not his wife, who must be, you know---the other thing!'
+whispers a fair neighbour of mine excitedly into her bosom friend's ear.
+Really, is it not surprising how certain of our fellow-countrymen behave
+when they come abroad? Who would suppose, by his goings on, that he was
+a churchwarden at Peckham? No one, indeed, would assume that Jones in
+the atmosphere of London would take on so austere a job as the duties of
+a churchwarden. Here, in the atmosphere of Dieppe, on the French side of
+the Channel, he is the life and soul of a gay little band that haunts
+the Casino and turns night into day, besides betraying a most unholy
+delight in the society of female butterflies.''
+
+Artemus Jones complained and the newspaper printed the following
+apology:
+
+``It seems hardly necessary for us to state that the imaginary Mr.
+Artemus Jones referred to in our article was not Mr. Thomas Artemus
+Jones, barrister, but, as he has complained to us, we gladly publish
+this paragraph in order to remove any possible misunderstanding and to
+satisfy Mr. Thomas Artemus Jones we had no intention whatsoever of
+referring to him.''
+
+Note that: ``apart from the name used, none of the details with regard
+to the imaginary personage described in the libel were applicable to the
+plaintiff, inasmuch as he is not a married man, nor a churchwarden, nor
+a resident of Peckham; nor was he either a frequenter of Dieppe or there
+at the time when the scene described in the alleged libel took place.''
+
+Held: for the plaintiff.
+
+Chase v News Group Newspapers
+
+On the front page of the newspaper for June 22 there was a large
+headline ``Nurse is probed over 18 deaths: World Exclusive''. The
+article said that she was suspected of overdosing terminally ill
+``youngsters'' with painkillers. It identified the children concerned as
+nine boys and nine girls, aged between eight weeks and 17 years.
+
+Held: The words were incapable of meaning merely ``reasonable grounds to
+investigate''. In order to justify a publication to the effect that
+there were reasonable grounds to suspect that the claimant was guilty of
+an offence, a defendant had to establish that there were objectively
+reasonable grounds for such suspicion. The defendant could not establish
+this and would therefore fail.
+
+\hyperdef{}{sdfootnote1}{}
+\hyperref[sdfootnote1anc]{1}Players familiar with pre-6th edition
+\emph{Magic: the Gathering} will find applications reminiscent of
+interrupts.
+
+\hyperdef{}{sdfootnote2}{}
+\hyperref[sdfootnote2anc]{2}Libel Act 1792 (32 Geo. III c. 60)
+
+\hyperdef{}{sdfootnote3}{}
+\hyperref[sdfootnote3anc]{3}\emph{Fox v Goodfellow} (1926) NZLR 58
+
+\hyperdef{}{sdfootnote4}{}
+\hyperref[sdfootnote4anc]{4}Lord Justice Scrutton in \emph{Bennison v
+Julton}{, The Times, April 13, 1926}
+
+\hyperdef{}{sdfootnote5}{}
+\emph{\hyperref[sdfootnote5anc]{5}Rubber Improvement Ltd v Daily
+Telegraph}{ {[}1964{]} A.C. 234}
+
+\hyperdef{}{sdfootnote6}{}
+\hyperref[sdfootnote6anc]{6}\emph{Chase v News Group Newspapers}
+{[}2003{]} EMLR 11
+
+\hyperdef{}{sdfootnote7}{}
+\hyperref[sdfootnote7anc]{7}Channel 7 Sydney v Parras {[}2002{]} NSWCA
+202
+
+\hyperdef{}{sdfootnote8}{}
+\hyperref[sdfootnote8anc]{8}Cassidy v Daily Mirror
+
+\hyperdef{}{sdfootnote9}{}
+\hyperref[sdfootnote9anc]{9}Eastwood v Holmes
+
+\hyperdef{}{sdfootnote10}{}
+\hyperref[sdfootnote10anc]{10}Goldsmith v Bhoyrul {[}1998{]} Q.B. 459
+
+\hyperdef{}{sdfootnote11}{}
+\hyperref[sdfootnote11anc]{11}MacDonald's Corporation v Steel (No. 4),
+the Independent, May 10, 1999
+
+\hyperdef{}{sdfootnote12}{}
+\hyperref[sdfootnote12anc]{12}Jameel v Wall Street Journal Europe SPRL
+(No.3), {[}2006{]} UKHL 44; {[}2007{]} 1 A.C. 359
+
+\hyperdef{}{sdfootnote13}{}
+\hyperref[sdfootnote13anc]{13}(1881-82) L.R. 7 App. Cas. 741
+
+\hyperdef{}{sdfootnote14}{}
+\hyperref[sdfootnote14anc]{14}{[}1910{]} A.C. 20
+
+\end{document}
