@@ -28,19 +28,7 @@
         </ul>
       </header>
 <section>
-    <h1 id="defamation">Defamation</h1>
-    <p>This repository contains the slides and some notes to accompany <a href="http://www.eventbrite.co.uk/e/staying-protected-how-to-avoid-lawsuits-in-the-age-of-user-generated-content-registration-15438490942">a talk on defamation</a> given on 5 March 2015. At the moment the only useful files are:</p>
-    <ul>
-    <li>slides (in <a href="source/slides.pdf">PDF format</a>)</li>
-    <li>some notes (also in <a href="source/talk.pdf">PDF format</a>)</li>
-    </ul>
-    <p>If you have any problems with these documents please raise as a git issue if possible, or send comments to me at <script type="text/javascript">
-    <!--
-    h='&#102;&#114;&#x61;&#110;&#x63;&#x69;&#x73;&#100;&#x61;&#118;&#x65;&#x79;&#46;&#x63;&#x6f;&#46;&#x75;&#x6b;';a='&#64;';n='&#x67;&#x69;&#116;&#104;&#x75;&#98;&#x2d;&#100;&#x65;&#102;&#x61;&#x6d;&#x61;&#116;&#x69;&#x6f;&#110;';e=n+a+h;
-    document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+e+'<\/'+'a'+'>');
-    // -->
-    </script><noscript>&#x67;&#x69;&#116;&#104;&#x75;&#98;&#x2d;&#100;&#x65;&#102;&#x61;&#x6d;&#x61;&#116;&#x69;&#x6f;&#110;&#32;&#x61;&#116;&#32;&#102;&#114;&#x61;&#110;&#x63;&#x69;&#x73;&#100;&#x61;&#118;&#x65;&#x79;&#32;&#100;&#x6f;&#116;&#32;&#x63;&#x6f;&#32;&#100;&#x6f;&#116;&#32;&#x75;&#x6b;</noscript></p>
-    <p>The slides and notes are written in latex.</p>
+    $body$
     </section>
     <footer>
         <p>This project is maintained by <a href="https://github.com/francisdavey">francisdavey</a></p>
