@@ -35,17 +35,7 @@ ${talks_dir}/%/notes.db : ${talks_dir}/%/notes.tex
 	pandoc $< --self-contained -f latex -t docbook -o $@
 
 
-#pandoc notes.tex -t docbook --standalone -o notes.db
-#xmlto -v --skip-validation html notes.db
-
-#http://docbook.sourceforge.net/release/xsl/current/html/chunk.xsl
-# -o output directory
-# -m config.xsl
-
-#xmlto -m templates/config.xsl --skip-validation -o pages/staying_protected html talks/staying_protected/notes.db
-
-#xmlto -m templates/config.xsl --skip-validation -o pages/staying_protected html talks/staying_protected/notes.db
-
+# Can't (yet) transform beamer into reveal.js
 
 #${pages_dir}/%.html : ${talks_dir}/%.tex templates/default.reveal.js $(THEMES)/francis.css
 #	mkdir -p ${@D}
