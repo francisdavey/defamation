@@ -1,0 +1,3 @@
+[submodule "pages-builder"]
+	path = pages-builder
+	url = https://github.com/francisdavey/pages-builder.git
